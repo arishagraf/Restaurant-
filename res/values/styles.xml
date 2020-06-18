@@ -1,0 +1,733 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="enjoy_10_of">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="offers">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #717171
+        </item>
+
+    </style>
+    <style name="what_s_tren">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="new_arrival">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="breakfast">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="food_switch_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlActivated">@android:color/holo_red_dark</item>
+        <item name="colorSwitchThumbNormal">@android:color/holo_green_dark</item>
+        <item name="android:colorForeground">@android:color/holo_green_dark</item>
+    </style>
+    <style name="my_menu">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="butter_pane">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="some_id">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="plate">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="add_new_add">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #0A0909
+        </item>
+
+    </style>
+    <style name="default_add">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+    <style name="antony">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+
+    <style name="xyz_apartme">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+    <style name="home">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="mobile_123_">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+    <style name="remove">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+    <style name="edit">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+    <style name="other_addre">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #676767
+        </item>
+
+    </style>
+    <style name="order_place">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="congratulat">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="bestsellers">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="trending_di">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="add_orders">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="cart">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="order_succe">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="price">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="quantity">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="item_name">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="amount">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="amounttotal">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="payment_met">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="opened_a_ta">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="amount_due_">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="clear_dues_">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="contact_num">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="enter_otp">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="select_paym">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="cash_or_car">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="quick_payme">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="other_walle">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="apply_offer">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="paste_code">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="xxxx12">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="redeem_loya">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="you_have_lo">
+
+        <item name="android:textSize">
+            11sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="naaniz_paym">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="request_cre">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFB230
+        </item>
+
+    </style>
+    <style name="open_a_tab">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="search_for_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #B2B2B2
+        </item>
+
+    </style>
+
+    <style name="congratulate">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="some_">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="order_01">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="some">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="new_arrivals">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="butter_pane1">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="add">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5D5D5D
+        </item>
+
+    </style>
+    <style name="preparation">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="views_3000_">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="mark_antony">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="description">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="login">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="ingredients">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FFA000
+        </item>
+
+    </style>
+    <style name="firstly_in_">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="searches_all">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+
+
+    </style>
+
+    <style name="sign_up">
+
+    <item name="android:textSize">20sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">#FF8500</item>
+
+    </style>
+</resources>

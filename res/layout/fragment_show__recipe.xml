@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.fragments.recipes.show_recipe_fragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/back_button"
+                android:layout_marginTop="36dp"/>
+
+            <Button
+                android:id="@+id/shareButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/share_button"
+                android:layout_marginTop="36dp"/>
+
+            <Button
+                android:id="@+id/downloadButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:layout_toLeftOf="@id/shareButton"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/ic_download"
+                android:layout_marginTop="36dp"/>
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/backButton"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/recipe_name"
+                android:layout_width="189dp"
+                android:layout_height="74dp"
+                android:layout_alignParentLeft="true"
+                android:text="BUTTER PANNER MASALA"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:layout_below="@id/recipe_image"
+                android:textAppearance="@style/butter_pane"
+                android:gravity="top" />
+
+            <Button
+                android:id="@+id/likeButton"
+                android:layout_width="53dp"
+                android:layout_height="50dp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:layout_below="@id/recipe_image"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/like_button"
+                android:layout_marginTop="65dp"/>
+
+            <Button
+                android:id="@+id/likedButton"
+                android:layout_width="53dp"
+                android:layout_height="50dp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:visibility="invisible"
+                android:enabled="false"
+                android:layout_below="@id/recipe_image"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/liked_button"
+                android:layout_marginTop="65dp"/>
+
+            <TextView
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/likeButton"
+                android:layout_toLeftOf="@id/views_3000_"
+                android:layout_marginTop="50dp"
+                android:text="Views: "
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/views_3000_"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/likeButton"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/preparation"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/recipe_name"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="16dp"
+                android:text="Preparation Time: "
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/preparation_time"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/likeButton"
+                android:layout_marginTop="24dp"
+                android:layout_toRightOf="@id/preparation"
+                android:textStyle="bold"
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/servings"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/preparation"
+                android:layout_marginLeft="16dp"
+                android:text="Serving:"
+                android:layout_marginTop="8dp"
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/servings_no"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/preparation"
+                android:layout_toRightOf="@id/servings"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/cost"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/servings"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Cost to Prepare: "
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/cost_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/servings"
+                android:layout_toRightOf="@id/cost"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+            <TextView
+                android:id="@+id/categories"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/cost"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Categories: "
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <TextView
+                android:id="@+id/categories_specified"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@id/cost"
+                android:layout_toRightOf="@id/categories"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/views_3000_"
+                android:lineSpacingExtra="2sp"
+                android:translationY="-1.08sp"
+                android:gravity="right|top" />
+
+            <ImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/boarder_image_view"
+                android:layout_marginLeft="16dp"
+                android:elevation="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/categories"/>
+
+            <TextView
+                android:id="@+id/mark_antony"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="9dp"
+                android:layout_toRightOf="@id/profile_pic"
+                android:layout_below="@id/categories"
+                android:layout_marginTop="23dp"
+                android:text="Mark Antony"
+                android:textStyle="bold"
+                android:textAppearance="@style/mark_antony"
+                android:gravity="top" />
+            <TextView
+                android:id="@+id/description_show_recipe"
+                android:layout_width="116dp"
+                android:layout_height="22dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/profile_pic"
+                android:text="DESCRIPTION"
+                android:textAppearance="@style/ingredients"
+                android:gravity="top" />
+            <TextView
+                android:id="@+id/description_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description_show_recipe"
+                android:layout_margin="16dp"
+                android:textAppearance="@style/firstly_in_"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/ingredient"
+                android:layout_width="116dp"
+                android:layout_height="22dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/description_recipe"
+                android:text="@string/ingredients"
+                android:textAppearance="@style/ingredients"
+                android:gravity="top" />
+
+            <LinearLayout
+                android:id="@+id/listOfIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_below="@id/ingredient"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/procedure_name"
+                android:layout_width="116dp"
+                android:layout_height="22dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="26dp"
+                android:layout_below="@id/listOfIngredients"
+                android:text="@string/procedure"
+                android:textAppearance="@style/ingredients"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/firstly_in_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/procedure_name"
+                android:layout_margin="16dp"
+                android:textAppearance="@style/firstly_in_"
+                android:gravity="top"
+                />
+
+            <Button
+                android:id="@+id/addToMenu"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/view"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rectangle_searches"
+                style="@style/searches_all"
+                android:layout_marginEnd="48dp"
+                android:text="Add to menu" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+</FrameLayout>

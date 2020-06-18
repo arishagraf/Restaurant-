@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="134dp">
+
+        <TextView
+
+            android:id="@+id/Complete_address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPLETE ADDRESS"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Complete_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Complete_address_text"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="House no./Flat no./Floor/Building"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/landmark_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Complete_address"
+            android:layout_marginTop="20dp"
+            android:text="LANDMARK"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Complete_address"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/landmark_text"
+            android:text="(Optional)"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editTextlandmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/landmark_text"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="House no./Flat no./Building"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextlandmark"
+            android:layout_marginTop="20dp"
+            android:text="TAG THIS LOCATION FOR LATER"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/homeEditAddressButton"
+            android:layout_width="58dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_below="@+id/editTextlandmark"
+            android:layout_marginTop="56dp"
+            android:textColor="#DA938B8B"
+            android:background="@drawable/button_type_two_background"
+            android:text="HOME" />
+        <Button
+            android:id="@+id/hostelEditAddressButton"
+            android:layout_toRightOf="@id/homeEditAddressButton"
+            android:layout_width="58dp"
+            android:layout_height="18dp"
+            android:layout_below="@+id/editTextlandmark"
+            android:layout_marginTop="56dp"
+            android:textColor="#DA938B8B"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/button_type_two_background"
+            android:text="Hostel" />
+        <Button
+            android:id="@+id/OfficeEditAddressButton"
+            android:layout_width="58dp"
+            android:layout_height="18dp"
+            android:layout_below="@+id/editTextlandmark"
+            android:layout_marginTop="56dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toRightOf="@id/hostelEditAddressButton"
+            android:textColor="#DA938B8B"
+            android:background="@drawable/button_type_two_background"
+            android:text="Office" />
+        <Button
+            android:id="@+id/otherEditAddressButton"
+            android:layout_width="58dp"
+            android:layout_height="18dp"
+            android:layout_toRightOf="@id/OfficeEditAddressButton"
+            android:layout_below="@+id/editTextlandmark"
+            android:layout_marginTop="56dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#DA938B8B"
+            android:background="@drawable/button_type_two_background"
+            android:text="Other" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

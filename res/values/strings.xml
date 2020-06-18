@@ -1,0 +1,382 @@
+<resources>
+    <string name="app_name">Naaniz Customer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enjoy_10_of">
+
+Enjoy 10% OFF on all orders\nUse code:  XXXX10
+</string>
+    <string name="offers">
+
+Offers
+</string>
+    <string name="what_s_tren">
+
+What\'s trending?
+</string>
+    <string name="new_arrival">
+
+New arrivals
+</string>
+    <string name="breakfast">
+
+Breakfast
+</string>
+
+    <string name="veg">Veg</string>
+    <string name="non_veg">Non Veg</string>
+    <string name="butter_pane">
+
+Butter Paneer\nMasala
+</string>
+    <string name="add">
+
+ADD
+</string>
+    <string name="preparation">
+
+Preparation Time: 20min\nServings: 4\nCost to prepare: \u00E2\u0082\u00B9225\nCategories: Bestsellers , Main course
+</string>
+    <string name="add_new_add">
+
+ADD NEW ADDRESS
+</string>
+    <string name="default_add">
+
+DEFAULT ADDRESS
+</string>
+    <string name="antony">
+
+Antony
+</string>
+
+    <string name="xyz_apartme">
+
+XYZ Apartment, ABC Road, Limecity, India.
+</string>
+    <string name="home">Home</string>
+    <string name="remove">
+
+REMOVE
+</string>
+    <string name="views_3000_">
+
+Views: 3000+
+</string>
+    <string name="mark_antony">
+
+Mark Antony
+</string>
+    <string name="some_id">
+
+\u00E2\u0082\u00B9225
+</string>
+    <string name="edit">
+
+EDIT
+</string>
+    <string name="other_addre">
+
+OTHER ADDRESSES
+</string>
+    <string name="order_place">
+
+ORDER PLACED
+</string>
+    <string name="congratulat">
+
+Congratulations! Your order was successfully placed. You add more to the cart or check out our recipes while we create an experience for you.
+</string>
+
+    <string name="trending_di">
+
+Trending dishes
+</string>
+    <string name="new_arrivals">
+
+New arrivals
+</string>
+    <string name="add_orders">
+
+ADD ORDERS
+</string>
+
+    <string name="cart">
+
+Cart
+</string>
+    <string name="order_succe">
+
+ORDER SUCCESSFUL
+</string>
+    <string name="order_01">
+
+Order 01
+</string>
+    <string name="item_name">
+
+Item Name
+</string>
+    <string name="quantity">
+
+Quantity
+</string>
+    <string name="price">
+
+Price
+</string>
+    <string name="amount">
+
+Amount
+</string>
+    <string name="payment_met">
+
+Payment method:
+</string>
+    <string name="amount_due_">
+
+Amount due:
+</string>
+    <string name="clear_dues_">
+
+(Clear dues)
+</string>
+    <string name="opened_a_ta">
+
+Opened a tab
+</string>
+    <string name="congratulate">
+
+Congratulations!\nYour order was successfully placed. Please wait and check out our recipes while we create an experience for you.
+</string>
+    <string name="enter_otp">
+
+ENTER OTP
+</string>
+    <string name="contact_num">
+
+CONTACT NUMBER
+</string>
+    <string name="select_paym">
+
+Select payment method
+</string>
+    <string name="cash_or_car">
+
+Cash or card on delivery
+</string>
+    <string name="quick_payme">
+
+QUICK PAYMENTS
+</string>
+    <string name="other_walle">
+
+OTHER WALLETS
+</string>
+    <string name="apply_offer">
+
+Apply offer
+</string>
+    <string name="paste_code">
+
+PASTE CODE
+</string>
+    <string name="xxxx12">
+
+XXXX12
+</string>
+    <string name="redeem_loya">
+
+Redeem Loyalty points
+</string>
+    <string name="you_have_lo">
+
+You have \u00E2\u0082\u00B9\u00E2\u0082\u00B9\u00E2\u0082\u00B9 loyalty points.
+</string>
+    <string name="naaniz_paym">
+
+NAANIZ PAYMENTS
+</string>
+    <string name="open_a_tab">
+
+Open a tab
+</string>
+    <string name="request_cre">
+
+(Request credit)
+</string>
+    <string name="bestsellers">
+
+Bestsellers
+</string>
+    <string name="plate">
+
+/plate
+</string>
+    <string name="description">
+
+DESCRIPTION
+</string>
+    <string name="this_recipe">
+
+This recipe is an easy, quick and delicious method \nto make paneer butter masala. Within minutes \nyou can prepare this Restaurant style paneer \nbutter masala at home.
+</string>
+    <string name="confirm_add">
+
+CONFIRM ADDRESS
+</string>
+    <string name="confirm_ord">
+
+CONFIRM ORDER
+</string>
+    <string name="items_plus_">
+
+5 ITEMS\n\u00E2\u0082\u00B9\u00E2\u0082\u00B9 plus taxes
+</string>
+    <string name="back_to_men">
+
+BACK TO MENU
+</string>
+    <string name="sign_up_with_us">SignUp with us and start your \nCloud Kitchen today!</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="gujrati">ગુજરાતી</string>
+    <string name="hello">Hello world!</string>
+    <string name="choose_language">Please select a language:</string>
+    <string name="sign_up">Sign Up:</string>
+    <string name="sign_up_ul"><u>Sign Up</u></string>
+
+    <string name="enter_details">Enter Details</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="verify">Verify</string>
+    <string name="Name">Name</string>
+    <string name="food_pref">Food Preference</string>
+    <string name="sign_up_phone">Enter Phone Number</string>
+    <string name="sign_up_pass">Enter Password</string>
+    <string name="Next">Next</string>
+    <string name="vendor_signup">SignUp as Vendor</string>
+    <string name="sign_up_repass">Re-enter Password</string>
+    <string name="invalid_pass">Invalid Password!! Must Contain only 8 Letters,Digit and ! and @.</string>
+    <string name="location">Your location:</string>
+    <string name="finish">Finish</string>
+    <string name="sign_up_complete">Thanks for signing up!</string>
+    <string name="login">Login</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="signup">Sign Up</string>
+    <string name="continue_home">Continue To Home</string>
+    <string name="enter_docs">Please submit your documents:</string>
+    <string name="pan_card">Pan Card</string>
+    <string name="fssai_doc">FSSAI License</string>
+    <string name="aadhar_card">Aadhar Card</string>
+    <string name="cancel_cheque">Cancel Cheque</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="resend_timer">Resend in %1$s seconds</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="upload">Upload</string>
+    <string name="upload_your">Upload Your Cancel Cheque</string>
+    <string name="click_on_th">Click on the upload button and click a picture\nwith the camera</string>
+    <string name="upload_the_">Upload the Front Side of the PAN CARD</string>
+    <string name="upload_your_pan">Upload Your PAN Card</string>
+    <string name="upload_your_aadhar">Upload Your ADHAAR Card</string>
+    <string name="upload_the_aadhar">Upload the Front Side of the ADHAAR CARD</string>
+    <string name="upload_your_fl">Upload Your Food License</string>
+
+    <string name="ingredients">INGREDIENTS</string>
+    <string name="procedure">PROCEDURE</string>
+    <string name="select_your">Select your Language</string>
+
+    <string name="a">A</string>
+    <string name="english_">(English)</string>
+
+    <string name="aa">आ</string>
+    <string name="hindi_">(Hindi)</string>
+
+    <string name="ga">ગુ</string>
+    <string name="gujarati_">(Gujarati)</string>
+
+    <string name="done">Done</string>
+
+    <string name="my_menu">My Menu</string>
+    <string name="vendors">Vendors</string>
+    <string name="list_of_ven">List of Vendors</string>
+
+
+    <string name="recipe_name">Recipe Name</string>
+    <string name="add_a_recipe">Add a Recipe</string>
+    <string name="servings">Servings :</string>
+    <string name="prep_time">Preparation Time (In min):</string>
+    <string name="recipe_type">Recipe Type </string>
+    <string name="upload_image">Upload Image</string>
+    <string name="enter_ingredients">Enter Ingredients</string>
+    <string name="list_ingredients">List of Ingredients</string>
+    <string name="method_of_prep">Method of Preparation</string>
+    <string name="publish">Publish</string>
+    <string name="get_your_fo">Get your Food Licence and\npartner with food delivery apps.</string>
+    <string name="receive_rec">Receive Recipe recommendations\nfrom our curated list.</string>
+    <string name="get_your_in">Get your Ingredients, Equipment\ndirectly through our Vendors.</string>
+    <string name="recipes_spe">Recipes, Specially curated for you based\non your Restaurants preferences.</string>
+    <string name="browse_thro">Browse through our collection of vendors\nand order your ingredients &amp; equipments\ndirectly through the application.</string>
+    <string name="submit_all_">Submit all the necessary documents.\nNaaniz will help you get a food licence \nand partner with food delivery apps.</string>
+    <string name="top_channels_for_your_search">Top Channels for your Search</string>
+    <string name="about">About</string>
+    <string name="app_developers">App Developers</string>
+    <string name="developers">1. Ayush Srivastava
+                               \nEmail - ID: ayush_bt18@iiitkalyani.ac.in
+                               \n2. Nimit Srivastava
+                               \nEmail - ID: nimits4900@gmail.com
+                               \n3. Pranjal Das
+                               \nEmail - ID: daspranjal830@gmail.com
+                               \n4. Satej Bidvai
+                               \nEmail - ID: satej.bidvai@gmail.com
+                               \n5. Yash Sharma
+                               \nEmail - ID: yash2307sharma@gmail.com</string>
+    <string name="ui_ux_developer">UI/UX Developer</string>
+    <string name="udev">1. Keshav Raj
+                         \nEmail - ID: keshav6301@gmail.com</string>
+    <string name="research_team">Research Team</string>
+    <string name="rdev">1. Shrinkhla
+                         \nEmail - ID: shrinkhla.bhabya@gmail.com
+                         \n2. Shalini R
+                         \nEmail - ID: shaliniramachandran89@gmail.com</string>
+    <string name="title_activity_my_menu_vendor">My_menu_vendor</string>
+    <string name="tab_text_1">Current Menu</string>
+    <string name="tab_text_2">Requests</string>
+    <string name="button_signup_login_restaurant">Sign Up/Login as Restaurant</string>
+    <string name="button_signup_login_customer">Sign Up/Login as Customer</string>
+    <string name="phone_number_edittext">Phone number</string>
+    <string name="btn_login">Login</string>
+    <string name="full_name_edittext">Full Name</string>
+    <string name="signup_btn_txt">Sign Up</string>
+    <string name="terms_and_conditions_checkbox">Terms and conditions</string>
+    <string name="let_s_set_up_your_profile">Let\'s set up your profile!</string>
+    <string name="description_profile_setup">Let us know about your preferences,\nfor a truly personalized experience with\nNaaniz</string>
+    <string name="next_btn_txt">Next</string>
+    <string name="hint_resource">Select State</string>
+    <string name="customer">Customer</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="skip_for_now">Skip for Now</string>
+    <string name="resend">Resend</string>
+    <string name="menu">Menu</string>
+    <string name="favourites">Favourites</string>
+    <string name="recipes">Recipes</string>
+    <string name="profile">Profile</string>
+    <string name="kadai_panee">Kadhai Paneer</string>
+    <string name="jwt_token">jwt_token</string>
+
+
+</resources>

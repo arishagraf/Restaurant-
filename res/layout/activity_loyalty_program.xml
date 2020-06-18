@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoyaltyProgram">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loyalty Program"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/arrow"
+        android:textSize="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/arrow"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/arrow"
+        android:layout_toRightOf="@id/arrow"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/collect"
+        android:text="Collect points on every order you complete.\nUse them to get discount on your next orders."/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/black"
+        android:layout_below="@id/collect"
+        android:id="@+id/line"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="You have Rs. 0.00 in your wallet"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/line"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/wallet"
+        android:textSize="16dp"
+        android:background="@drawable/border_textview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wallet"
+        android:text="How it works"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/arrow"
+        android:layout_marginTop="25dp"
+        android:id="@+id/how_it_works"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/how_it_works"
+        android:layout_toRightOf="@id/check"
+        android:layout_marginLeft="5dp"
+        android:text="Get 5 loyality points on your every order."
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_check_black_24dp"
+        android:layout_below="@id/how_it_works"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/arrow"
+        android:id="@+id/check"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_toRightOf="@id/check"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/redeem"
+        android:text="Redeem your points to get up to 20% off on\nyour next order."
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_check_black_24dp"
+        android:layout_below="@id/check"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/arrow"
+        android:id="@+id/check2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redeem"
+        android:layout_toRightOf="@id/check"
+        android:layout_marginLeft="5dp"
+        android:text="Limited to aximum Rs. 20.00 per order."
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_check_black_24dp"
+        android:layout_below="@id/redeem"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/arrow"
+        android:id="@+id/check3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check3"
+        android:layout_toRightOf="@id/check"
+        android:layout_marginLeft="5dp"
+        android:text="Each loyalty points is valid for next 90 days."
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_check_black_24dp"
+        android:layout_below="@id/check3"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/arrow"/>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.fragments.recipes.add_recipe">
+
+
+
+
+        <EditText
+            android:id="@+id/recipe_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/rectangle_edit"
+            android:hint="Enter Recipe Name"
+            android:inputType="textCapWords"
+            android:paddingStart="14dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recipe_name" />
+
+
+        <EditText
+            android:id="@+id/description_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rectangle_edit"
+            android:inputType="textCapWords"
+            android:paddingStart="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_name" />
+
+        <RelativeLayout
+            android:id="@+id/linearLayout_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/next_item"
+            app:layout_constraintTop_toBottomOf="@+id/upload_img">
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/vector_form_outer_boarder" />
+
+            <Button
+                android:id="@+id/recipe_upload_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/ic_file_upload" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/back_button" />
+
+            <TextView
+                android:id="@+id/my_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="ADD A RECIPE"
+                android:textAppearance="@style/my_menu"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="RECIPE NAME"
+            android:textAppearance="@style/my_menu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/recipe_name_edit_text"
+            app:layout_constraintRight_toLeftOf="@id/food_choice_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+
+        <TextView
+            android:id="@+id/description_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="DESCRIPTION"
+            android:textAppearance="@style/my_menu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toTopOf="@id/description_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recipe_name_edit_text"
+
+            />
+
+
+        <TextView
+            android:id="@+id/upload_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="UPLOAD IMAGES"
+            android:textAppearance="@style/my_menu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toTopOf="@id/linearLayout_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_edit_text" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/food_choice_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.9"
+            android:text="@string/veg"
+            android:textOff="@string/veg"
+            android:textOn="@string/non_veg"
+            android:textSize="16sp"
+            android:theme="@style/food_switch_style"
+            app:layout_constraintBottom_toTopOf="@id/recipe_name_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintStart_toEndOf="@+id/recipe_name"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+        <Button
+            android:id="@+id/next_item"
+            style="@style/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:background="@drawable/rectangle2"
+            android:text="NEXT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout_image" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+

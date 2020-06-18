@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_navigation"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.favourites.FavouritesFragment"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_collectionDemoFragment"
+            app:destination="@id/collectionDemoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment2_to_editProfile"
+            app:destination="@id/editProfile" />
+        <action
+            android:id="@+id/action_profileFragment2_to_address_fragment"
+            app:destination="@id/address_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.recipes.RecipesFragment"
+        android:label="fragment_recipes"
+        tools:layout="@layout/fragment_recipes" />
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.editprofile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/collectionDemoFragment"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.test.CollectionDemoFragment"
+        android:label="CollectionDemoFragment" >
+        <action
+            android:id="@+id/action_collectionDemoFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/address_fragment"
+        android:name="com.naaniz.naanizcustomer.ui.main.fragments.addressbook.address_fragment"
+        android:label="address_fragment" />
+</navigation>

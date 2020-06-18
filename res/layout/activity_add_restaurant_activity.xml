@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_bg">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/app_icon" />
+
+    <RelativeLayout
+        android:id="@+id/scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/scanner" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editText_restaurant_uid"
+        style="@style/sign_up"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_signup"
+        android:hint="Restaurant UID"
+        android:layout_marginTop="80dp"
+        android:inputType="phone"
+        android:padding="20dp"
+        android:layout_below="@+id/scanner"
+        android:textAlignment="center"
+        android:textColorHint="#FF8500" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8500"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Saved Restaurant UID"
+        android:layout_below="@id/editText_restaurant_uid"/>
+
+
+
+</RelativeLayout>

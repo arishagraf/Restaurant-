@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naaniz.naanizcustomer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".NaanizApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoyaltyProgram" />
+        <activity android:name=".ui.main.fragments.recipes.recipe_procedure" />
+        <activity android:name=".ui.main.fragments.recipes.recipe_additional_details" />
+        <activity android:name=".ui.main.fragments.recipes.recipe_add_ingredient" />
+        <activity android:name=".ui.main.fragments.recipes.add_recipe"></activity>
+        <activity android:name=".ui.main.MainActivity" />
+        <activity android:name=".ui.setup.login.LoginCustomerActivity" />
+        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".ui.setup.signup.SignUpCustomer1" />
+        <activity android:name=".ui.setup.signup.SignUpCustomer2" />
+        <activity android:name=".ui.setup.signup.SignUpCustomer3" />
+        <activity android:name=".ui.setup.signup.SignUpCustomer4" />
+    </application>
+
+</manifest>
